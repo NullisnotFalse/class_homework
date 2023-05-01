@@ -8,11 +8,17 @@ class Animal:
 
 
 class Dog(Animal):
+    def __init__(self, name, age):
+        super().__init__(name, age)
+
     def speak(self):
         print("멍멍멍")
 
 
 class Cat(Animal):
+    def __init__(self, name, age):
+        super().__init__(name, age)
+
     def speak(self):
         print("야아아아옹")
 
